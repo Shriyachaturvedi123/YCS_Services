@@ -1,0 +1,46 @@
+.contact-section {
+    padding: 50px 0;
+  }
+  /* Main top heading "CONTACT US" with smaller size */
+  .contact-heading {
+    font-size: 20px; /* Smaller font size */
+    font-weight: bold;
+    color: white; /* Gold color */
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .contact-section h2 {
+    color: white; /* Gold color for sub-heading "Get In Touch" */
+  }
+  .contact-info {
+    margin-top: 20px;
+  }
+  .contact-info h4 {
+    color: #87cefa; /* Light blue for subheadings */
+    margin-top: 20px;
+  }
+  .contact-info p {
+    color: #ccc;
+  }
+  .icon-circle {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #a83535; /* Gold border for circle */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto; /* Center the circle and add margin below */
+    transition: background-color 0.3s ease;
+  }
+  .icon-circle i {
+    font-size: 40px;
+    color: #ccc; /* Icon color matching the border */
+  }
+  .icon-circle:hover {
+    background-color: #a83535; /* Hover background color */
+  }
+  .icon-circle:hover i {
+    color: #1a1a1a; /* Icon color changes on hover */
+  }

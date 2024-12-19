@@ -1,0 +1,78 @@
+.track-section {
+          margin: 50px auto;
+          max-width: 800px;
+        }
+    
+        .track-heading {
+          font-weight: bold;
+          color: #003366;
+        }
+    
+        .search-container {
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+        }
+    
+        .search-container input {
+          width: 100%;
+          border: 1px solid #ccc;
+          padding: 8px;
+          border-radius: 0;
+        }
+    
+        .search-btn {
+          background-color: black;
+          color: white;
+          padding: 9px 15px;
+          border: none;
+          cursor: pointer;
+        }
+    
+        .search-btn:hover {
+          background-color: #333;
+        }
+    
+        .delivery-table {
+          width: 100%;
+          background-color: white;
+        }
+    
+        .delivery-table thead {
+          background-color: #ff00006f;
+          color: white;
+          text-align: center;
+        }
+    
+        .pod-btn {
+          background-color: #ff00006f;
+          color: white;
+          border: none;
+          padding: 10px;
+          width: 100%;
+          cursor: pointer;
+        }
+    
+        .pod-btn:hover {
+          background-color: #ff00006f;
+        }
+    
+        /* Side Floating Button */
+        .floating-btn {
+          position: fixed;
+          right: 0;
+          top: 50%;
+          background-color: #0056b3;
+          color: white;
+          padding: 10px 20px;
+          writing-mode: vertical-rl;
+          text-orientation: mixed;
+          text-decoration: none;
+          border-radius: 5px 0 0 5px;
+          font-weight: bold;
+        }
+    
+        .floating-btn:hover {
+          background-color: #003366;
+          text-decoration: none;
+        }

@@ -1,0 +1,25 @@
+.faq-section {
+            padding: 50px 0;
+        }
+        .faq-title {
+            font-weight: bold;
+            color: #7ed4ff;
+        }
+        .faq-header {
+            background-color: #16161a;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+        }
+        .faq-header:hover {
+            background-color: #212125;
+        }
+        .faq-header a {
+            color: #7ed4ff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .faq-header i {
+            color: #7ed4ff;
+            float: right;
+        }

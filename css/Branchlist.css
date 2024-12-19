@@ -1,0 +1,28 @@
+
+.form-container {
+  display: flex;
+  gap: 20px;
+}
+
+
+button {
+    background-color: #07407c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+
+  button:hover {
+    background-color: #a23131;
+    transition: 0.3s ease;
+  }
+@media (max-width: 576px) {
+    .form-container {
+      padding: 15px;
+    }
+    button {
+      margin-top: 15px;
+    }
+  }

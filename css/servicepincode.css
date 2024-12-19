@@ -1,0 +1,54 @@
+/* Custom styling for the input field */
+.form-input {
+    padding: 20px;
+    border-radius: 5px;
+    height: 60px;
+    width: 600px; /* Ensures the input field has a consistent height */
+  }
+  
+  /* Custom styling for the button */
+  .form-button {
+    padding: 20px 30px;
+    background-color: #07407c; /* Custom background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 60px; /* Ensures the button has a consistent height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Add responsiveness for all devices */
+  @media (max-width: 768px) {
+    .form-input, .form-button {
+      width: 100%; /* Make input and button full width on small screens */
+    }
+    
+    /* Adjust the spacing and layout on smaller screens */
+    .container {
+      height: auto; /* Allow the container height to adjust based on content */
+    }
+    
+    .d-flex {
+      flex-direction: column; /* Stack the input and button vertically on small screens */
+    }
+    
+    .form-input {
+      margin-bottom: 10px; /* Add margin between the input and button on small screens */
+    }
+  }
+  
+  /* Adjust vertical positioning of the container with 20% top margin */
+  .container {
+    margin-top: 20vh; /* Set the top margin to 20% of the viewport height */
+    padding-top: 0;
+  }
+  
+  
+  .footer {
+    margin-top: 10rem;
+  }
+  
+  
